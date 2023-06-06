@@ -1,0 +1,62 @@
+{
+  "name": "@pi-agi/writer",
+  "version": "1.0.0",
+  "description": "Writer AGI adopts a systematic approach to book writing, initiating with brainstorming themes and plot structures, character development, setting up scenes, and eventually composing chapters.",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "build": "tsc",
+    "serve": "node dist/index.js"
+  },
+  "keywords": [
+    "artificial-intelligence",
+    "agi",
+    "gpt-4",
+    "openai",
+    "personalized-agi",
+    "software-engineer",
+    "senior-software-engineer",
+    "writer",
+    "writer-agi",
+    "writing",
+    "autonomous book writing",
+    "scenario",
+    "scene writer",
+    "ai driven wrştşng",
+    "ai music",
+    "writer agi",
+    "machine-learning",
+    "deep-learning",
+    "role-based-agi"
+  ],
+  "author": "Fatih Turker",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/audiobuffer-to-wav": "^1.0.2",
+    "@types/node": "^18.15.7",
+    "@types/uuid": "^9.0.1",
+    "dotenv": "^16.0.3",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@pi-agi/core": "^1.1.7",
+    "@types/axios": "^0.14.0",
+    "@types/express": "^4.17.17",
+    "audiobuffer-to-wav": "^1.0.0",
+    "axios": "^1.3.4",
+    "express": "^4.18.2",
+    "midi-writer-js": "^2.1.4",
+    "tone": "^14.7.77",
+    "uuid": "^9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pi-agi/writer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pi-agi/writer/issues"
+  },
+  "homepage": "https://github.com/pi-agi/writer#readme"
+}
